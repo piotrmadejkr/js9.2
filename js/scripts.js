@@ -4,5 +4,6 @@ var femaleNames = ['Asia', 'Kasia', 'Ola', 'Jola'],
      newName = 'Marian';
 console.log(allNames);
 if (allNames.indexOf(newName) === -1) {
-    newName = allNames.push(newName)
+    newName = allNames.push(newName);
 };
+console.log(allNames);
